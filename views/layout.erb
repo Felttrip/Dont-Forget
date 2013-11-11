@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf8">
+	<title><%= @title +" |Don't Forget" %></title>
+	<link href="/reset.ss" rel="stylesheet">
+	<link href="/style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<hgroup>
+			<h1><a href="/">Don't Forget</a></h1>
+			<h2>If you don't write it down it's not going to happen</h2>
+		</hgroup>
+	</header>
+
+	<div id="main">
+		<%= yield %>
+	</div>
+
+	<footer>
+		<p><small>Made by: Nathaniel Thompson</small></p>
+	</footer>
+</body>
+</html>
